@@ -22,7 +22,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
 
-  GitBranch:
+  GitBranch: 
     Type: String
     Default: master
     Description: GitHub git repository branch - change triggers a new build
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: shwethashyam10
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
